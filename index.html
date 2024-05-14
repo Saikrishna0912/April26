@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Document</title>
+    <style>
+        #contact{
+            overflow: hidden;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h2>Secret Kitchen</h2></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#veg">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Address</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Resback.jpg" class="d-block w-100" alt="..." height="500vh">
+          </div>
+          <div class="carousel-item">
+            <img src="./restau.jpg" class="d-block w-100" alt="..."  height="500vh">
+          </div>
+          <div class="carousel-item">
+            <img src="./bidri-ambience.jpg" class="d-block w-100" alt="..."  height="500vh">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Veg Menu
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body" id="veg">
+                Veg Manchuria<img src="https://img.onmanorama.com/content/dam/mm/en/lifestyle/health/images/2024/2/6/gobi-manchurian.jpg.transform/576x300/image.jpg" height="200" width="200">
+                Paneer Tikka<img src="https://cdn.tasteatlas.com//images/dishes/16dbebbff2e04e0d984f4ed83be93b97.jpg?w=375&h=280" height="200" width="200">
+                Veg Sandwich<img src="https://bachelorrecipe.com/wp-content/uploads/2018/05/Vegetable-Sandwich.jpg" height="200" width="200">
+                Veg Roll<img src="https://wbcdn.in/assets/img/uploads/cache/mywb/uploads/img_7da6ad49d67349e5fe81ba0df42255eaf7cdb929_870_.jpg" height="200" width="200">
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Non Veg Menu            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Tandoori Chicken<img src="https://www.shutterstock.com/image-photo/tasty-grilled-meat-non-veg-260nw-730913476.jpg" height="200" width="200">
+                Prawns<img src="https://wp.scoopwhoop.com/wp-content/uploads/2014/08/567731276e510a6f3a7598c3_21.jpg" height="200" width="200">
+                Fish Fry<img src="https://i.ytimg.com/vi/C7Sl3GMIqds/maxresdefault.jpg" height="200" width="200">
+                Mutton Fry<img src="https://i.ytimg.com/vi/aGYM7X-x6ZU/maxresdefault.jpg" height="200" width="200">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;" id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121762.3355827699!2d78.32348543622805!3d17.504028987568486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9b0f747972f9%3A0xc50d2f5489637a64!2sSECRET%20KITCHEN%20RESTAURANT!5e0!3m2!1sen!2sin!4v1712572432746!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Address</h5>
+              <p class="card-text">Make a visit</p>
+            </div>
+          </div>
+      <script src="./js/bootstrap.js">
+        
+      </script>
+    
+</body>
+</html>
